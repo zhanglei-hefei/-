@@ -11,6 +11,6 @@ public class JsoupTest {
     @Test
     public void JsoupTest1() throws Exception {
         //解析URL地址
-        Jsoup.parse(new URL("https://fe-api.zhaopin.com/c/i/sou"),1000)
+        Jsoup.parse(new URL("https://fe-api.zhaopin.com/c/i/sou"),1000);
     }
 }
